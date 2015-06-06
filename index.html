@@ -1,12 +1,12 @@
 ---
-title: Haike_506
+title: 创思合众官网
 ---
 {% include showcase.html %}
 {% include greeting.html %}
 
 {% if site.posts != empty %}
-<div class="recent-posts">
-  <h1>Recent Posts</h1>
+<div class="recent-posts" style="display:none">
+  <h1>最新文章</h1>
   {% for post in site.posts limit: 3 %}
     {% if forloop.first %}
       {% assign add_class = 'most-recent' %}

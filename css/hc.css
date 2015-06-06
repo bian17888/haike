@@ -306,11 +306,11 @@ pre
 
 #welcome-greeting > h2
 {
-  font-size:2em;
+  font-size:1.6em;
   font-weight:100;
   color:#2e2e2e;
   padding-top:0;
-  line-height:140%
+  line-height:160%
 }
 
 #welcome-greeting h2 a
@@ -751,4 +751,27 @@ time
   font-size: small;
 }
 
+}
+
+/* reset by biankai - 20150606 */
+.project-post .post {
+  padding-right: 10px;
+}
+.project-post .post p { 
+  text-indent: 2em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.project-post .post p img {
+  width:90%;
+}
+
+.user-card .letter p {
+  font-size: 0.8em;
+  text-align: left;
+}
+
+.project-container
+{
+  background-image:url("/haike/images/temp/pic_bg_900x200.jpg");
 }
