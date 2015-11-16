@@ -1,5 +1,5 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  "模板 (临时占位, 忽略)"
 date:   2013-11-08 19:55:16
 categories: jekyll update
 ---

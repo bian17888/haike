@@ -1,11 +1,10 @@
 ---
-title: 创思合众官网
 ---
 {% include showcase.html %}
 {% include greeting.html %}
 
 {% if site.posts != empty %}
-<div class="recent-posts" style="display:none">
+<div class="recent-posts" style="display:block">
   <h1>最新文章</h1>
   {% for post in site.posts limit: 3 %}
     {% if forloop.first %}
