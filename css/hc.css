@@ -779,3 +779,12 @@ time
 #welcome-greeting > h1 {
   font-size: 2em;
 }
+
+.p-qrcode {
+  text-align: center;
+  padding: 10px 20px;
+}
+.p-qrcode img {
+  width : 180px;
+  opacity: 0.6;
+}
