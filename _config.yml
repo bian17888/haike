@@ -10,6 +10,7 @@ github: http://www.github.com/bian17888
 twitter: http://www.twitter.com/clinc1
 facebook: http://www.facebook.com
 linkedin: http://www.linkedin.com
+weichat: hk_media
 tel : 010-50907051
 email: haiketech@163.com
 location: 北京市昌平区科星西路106号国风美唐5号楼14层
@@ -30,7 +31,7 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      title : "创思合众"
+      title : "北京创思合众科技有限公司"
   - scope:
       path: ""
       type: "posts"

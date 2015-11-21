@@ -775,3 +775,7 @@ time
 {
   background-image:url("/haike/images/temp/pic_bg_900x200.jpg");
 }
+
+#welcome-greeting > h1 {
+  font-size: 2em;
+}
