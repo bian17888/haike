@@ -3,10 +3,12 @@
     .showcase-wrapper {background-image: url("{{ site.baseurl }}/images/showcase.jpg");}
     </style>
     <div class="showcase-wrapper sticky">
-      <div class="showcase-text" style="display:none">
-          {% for post in site.posts limit: 1 %}
+      <div class="showcase-text" style="display:block">
+          <!-- {% for post in site.posts limit: 1 %}
           <span class="badge lazy" style="display:block"><smaller>FRESHLY MINTED</smaller></span><br>{{ post.title }}<br><a href="{{ site.baseurl }}{{ post.url }}"><button type="button" class="btn btn-default showcase-button">Read More</button></a>
-          {% endfor %}
+          {% endfor %} -->
+          <!-- 自定义部分 -->
+          <span class="showcase-title">改变互联网的垄断格局,让创新不再被埋没。</span>
       </div>
     </div>
     <div class="container">

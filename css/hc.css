@@ -779,6 +779,9 @@ time
 #welcome-greeting > h1 {
   font-size: 2em;
 }
+#welcome-greeting h1:hover {
+  font-size: 2em;
+}
 
 .p-qrcode {
   text-align: center;
@@ -787,4 +790,18 @@ time
 .p-qrcode img {
   width : 180px;
   opacity: 0.6;
+}
+
+.showcase-title {
+  display: block;
+  text-align: center;
+  margin-top:30px;
+}
+@media screen and (max-width: 500px) {
+.showcase-title {
+  margin-top:80px;
+}
+.recent-posts {
+  padding: 10px 20px;
+}
 }
